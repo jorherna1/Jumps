@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the working paper below."
+type: software
+title: "A Jump-Diffusion Framework to Construct an Unbiased Environmental Index — replication code"
+authors:
+  - family-names: Hernandez
+    given-names: Jorge Nestor
+    affiliation: Florida International University
+  - family-names: Villamor
+    given-names: Enrique
+    affiliation: Florida International University
+repository-code: "https://github.com/jorherna1/Jumps"
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "A Jump-Diffusion Framework to Construct an Unbiased Environmental Index"
+  authors:
+    - family-names: Hernandez
+      given-names: Jorge Nestor
+      affiliation: Florida International University
+    - family-names: Villamor
+      given-names: Enrique
+      affiliation: Florida International University
+  year: 2026
+  notes: "Working paper, Florida International University"
