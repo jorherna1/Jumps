@@ -7,7 +7,7 @@ Florida International University
 
 ## Overview
 
-This paper proposes a market-based environmental index that avoids the self-reporting bias of corporate ESG disclosures and the subjectivity of third-party ratings. The approach identifies abnormal stock-price movements (jumps) triggered by climate-related news events: each trading day is classified as a jump day when the standardized return satisfies |Z| > 1, where Z is computed relative to a rolling 64-day baseline. Jump arrivals for each firm are modeled as a Poisson process with intensity lambda (average jumps per day) and average jump size k (mean signed return on jump days). A firm-level indicator theta = lambda * k summarizes the direction and magnitude of climate-news-driven price dislocations. Scores are min-max normalized to a 0-100 index, where higher values indicate more positive market responses to climate news. Because the index is derived entirely from observed price dynamics and publicly available news, it requires no voluntary disclosure and is free from rater disagreement.
+This unpublished manuscript proposes a market-based environmental index that avoids the self-reporting bias of corporate ESG disclosures and the subjectivity of third-party ratings. The approach identifies abnormal stock-price movements (jumps) triggered by climate-related news events: each trading day is classified as a jump day when the standardized return satisfies |Z| > 1, where Z is computed relative to a rolling 64-day baseline. Jump arrivals for each firm are modeled as a Poisson process with intensity lambda (average jumps per day) and average jump size k (mean signed return on jump days). A firm-level indicator theta = lambda * k summarizes the direction and magnitude of climate-news-driven price dislocations. Scores are min-max normalized to a 0-100 index, where higher values indicate more positive market responses to climate news. Because the index is derived entirely from observed price dynamics and publicly available news, it requires no voluntary disclosure and is free from rater disagreement.
 
 ---
 
@@ -39,7 +39,7 @@ This paper proposes a market-based environmental index that avoids the self-repo
 
 ## Reproduction reference
 
-The table below gives parameter estimates for ExxonMobil (XOM) as a spot-check against the paper's reported values.
+The table below gives parameter estimates for ExxonMobil (XOM) as a spot-check against the manuscript's reported values.
 
 | Parameter | Value |
 |-----------|-------|
@@ -61,8 +61,3 @@ The table below gives parameter estimates for ExxonMobil (XOM) as a spot-check a
 }
 ```
 
----
-
-## Acknowledgements
-
-This research was supported by the US Department of Defense under grant **W911NF-25-1-0138**.
